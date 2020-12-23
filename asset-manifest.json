@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.07a6e54e.chunk.css",
+    "main.js": "./static/js/main.3fb732c9.chunk.js",
+    "main.js.map": "./static/js/main.3fb732c9.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3d0d29fc.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3d0d29fc.js.map",
+    "static/js/2.44c1e756.chunk.js": "./static/js/2.44c1e756.chunk.js",
+    "static/js/2.44c1e756.chunk.js.map": "./static/js/2.44c1e756.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.31008586a12f6f56c301fa00af43f07a.js": "./precache-manifest.31008586a12f6f56c301fa00af43f07a.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.07a6e54e.chunk.css.map": "./static/css/main.07a6e54e.chunk.css.map",
+    "static/js/2.44c1e756.chunk.js.LICENSE.txt": "./static/js/2.44c1e756.chunk.js.LICENSE.txt",
+    "static/media/element_02_lq.mp4": "./static/media/element_02_lq.52d79d74.mp4",
+    "static/media/space_bg.mp4": "./static/media/space_bg.62f4cd70.mp4",
+    "static/media/video_with_mask.mp4": "./static/media/video_with_mask.ea0690b1.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d0d29fc.js",
+    "static/js/2.44c1e756.chunk.js",
+    "static/css/main.07a6e54e.chunk.css",
+    "static/js/main.3fb732c9.chunk.js"
+  ]
+}
