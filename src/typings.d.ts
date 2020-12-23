@@ -7,6 +7,8 @@ declare module '*.css' {
   export default content;
 }
 
+declare module 'ogl'
+
 interface SvgrComponent extends React.StatelessComponent<React.SVGAttributes<SVGElement>> {}
 
 declare module '*.svg' {

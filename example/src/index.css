@@ -12,3 +12,64 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  width: 100%;
+  flex-shrink: 0;
+  font-size: 20vh;
+  text-align: center;
+  position: relative;
+  animation: sasacred 0.5s 0ms linear infinite;
+}
+
+#root > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#root > div > div {
+  max-width: 50vw;
+  max-height: 50vw;
+  width: 100vh;
+  height: 100vh;
+  position: relative;
+}
+
+#root > div > div:nth-child(5) {
+  order: 2;
+}
+
+.videoBg {
+  width: 150vw;
+  height: 150vh;
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+.donat {
+  will-change: transform;
+  animation: donat 10s 0ms linear infinite;
+}
+
+@keyframes donat {
+  0%   { transform: rotate(0deg) scaleX(1); }
+  50%   { transform: rotate(180deg) scaleX(-1); }
+  100% { transform: rotate(360deg) scaleX(1); }
+}
+
+@keyframes sasacred {
+  0%   { color: #00e8fc; }
+  10%   { color: #00ff0c; }
+  20%   { color: #8802ff; }
+  30%   { color: #ff0000; }
+  40%   { color: #ff6500; }
+  50%   { color: #00ff66; }
+  60%   { color: #0067ff; }
+  70%   { color: #7e00ff; }
+  80%   { color: #89ff00; }
+  90% { color: #db00ff; }
+  100% { color: #fdb700; }
+}
