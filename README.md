@@ -15,15 +15,17 @@ npm install --save react-transparent-video
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-transparent-video'
-import 'react-transparent-video/dist/index.css'
+import { TransparentVideo } from 'react-transparent-video'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <TransparentVideo src='/path/to/video.mp4' />
   }
 }
 ```
+
+## Video mask
+![Video mask example](https://github.com/GbGr/react-transparent-video/blob/master/example/public/video_mask_example.gif?raw=true)
 
 ## License
 

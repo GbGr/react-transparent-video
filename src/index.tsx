@@ -4,10 +4,7 @@ import WebGLRenderer from './Renderer'
 import vertexShader from './vertexShader'
 import fragmentShader from './fragmentShader'
 
-interface TransparentVideoProps extends React.HTMLProps<HTMLVideoElement> {
-  videoClassname?: string
-}
-
+type TransparentVideoProps = React.HTMLProps<HTMLVideoElement>
 export const TransparentVideo: React.FC<TransparentVideoProps> = (props) => {
   const videoStyle: React.CSSProperties = props.style || {}
   videoStyle.display = 'none'
@@ -74,7 +71,6 @@ function initGL(video: HTMLVideoElement, canvas: HTMLCanvasElement): void {
     position: { size: 2, data: new Float32Array([-1, -1, 3, -1, -1, 3]) },
     uv: { size: 2, data: new Float32Array([0, 0, 2, 0, 0, 2]) }
   })
-  // Alternatively, you could use the Triangle class.
 
   const program = new Program(gl, {
     vertex: vertexShader,

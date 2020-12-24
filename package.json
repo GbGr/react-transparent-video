@@ -61,7 +61,6 @@
     "dist"
   ],
   "dependencies": {
-    "ogl": "0.0.60",
-    "twgl-base.js": "^4.17.0"
+    "ogl": "0.0.60"
   }
 }
