@@ -29,6 +29,7 @@ export const TransparentVideo: React.FC<TransparentVideoProps> = (props) => {
     <div className={props.className}>
       <video
         {...props}
+        playsInline
         ref={videoRef}
         style={videoStyle}
         className={undefined}
