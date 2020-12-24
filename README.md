@@ -27,6 +27,8 @@ class Example extends Component {
 ## Video mask
 ![Video mask example](https://github.com/GbGr/react-transparent-video/blob/master/example/public/video_mask_example.gif?raw=true)
 
+## [Demo](https://gbgr.github.io/react-transparent-video/)
+
 ## License
 
 MIT © [GbGr](https://github.com/GbGr)
